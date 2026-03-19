@@ -172,6 +172,9 @@ export default function Home() {
           <div className="mt-8 flex flex-col items-center">
             <div className="w-16 h-16 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
             <p className="mt-4 text-white text-lg">Processing your image...</p>
+            <div className="w-full max-w-xs bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-4">
+              <div className="bg-blue-600 h-2.5 rounded-full animate-pulse" style={{ width: '45%' }}></div>
+            </div>
           </div>
         )}
 
